@@ -1,0 +1,13 @@
+{
+  "name": "Debian XFCE X11",
+  "image": "mcr.microsoft.com/devcontainers/base:debian",
+  "features": {
+    "ghcr.io/devcontainers/features/common-utils:2": {}
+  },
+  "postCreateCommand": "sudo apt-get update && sudo apt-get install -y xfce4 xfce4-goodies xauth dbus-x11",
+  "customizations": {
+    "vscode": {
+      "settings": {}
+    }
+  }
+}

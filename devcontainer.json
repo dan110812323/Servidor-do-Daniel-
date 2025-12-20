@@ -1,5 +1,0 @@
-{
-  "image": "debian:latest",
-  "features": {},
-  "postCreateCommand": "apt-get update && apt-get install -y sudo vim curl"
-}
